@@ -1,2 +1,2 @@
 # Supplementary Material for "Prediction of Ligand Binding Sites Using Improved Blind Docking Method with a Machine Learning-Based Scoring Function"
-All the supplementary material for the paper "Prediction of Ligand Binding Sites Using Improved Blind Docking Method with a Machine Learning-Based Scoring Function" can be freely downloaded from the file "support_material_code.zip".
+All the supplementary material for the paper "Prediction of Ligand Binding Sites Using Improved Blind Docking Method with a Machine Learning-Based Scoring Function" can be freely downloaded from the file "support_material_code.zip". The trained ANN model and the result data from the two case studies in the paper can be found in the file.
