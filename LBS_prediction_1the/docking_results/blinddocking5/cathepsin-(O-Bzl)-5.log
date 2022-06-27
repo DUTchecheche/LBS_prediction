@@ -1,0 +1,53 @@
+############################################################################
+# If you used Qvina-W in your work, please cite:                           #
+#                                                                          #
+# Nafisa M. Hassan, Amr A. Alhossary, Yuguang Mu, and Chee-Keong Kwoh,     #
+# Protein-Ligand Blind Docking Using QuickVina-W With Inter-Process        #
+# Spatio-Temporal Integration, Scientific Reports 7(1):2017,               #
+# doi:10.1038/s41598-017-15571-7                                           #
+#                                                                          #
+# You are also encouraged to cite:                                         #
+# QuickVina 2                                                              #
+# Amr Alhossary, Stephanus Daniel Handoko, Yuguang Mu, and Chee-Keong Kwoh,#
+# Fast, Accurate, and Reliable Molecular Docking with QuickVina 2,         #
+# Bioinformatics (2015), doi: 10.1093/bioinformatics/btv082                #
+#                                                                          #
+# Quick Vina 1:                                                            #
+# Stephanus Daniel Handoko, Xuchang Ouyang, Chinh Tran To Su, Chee Keong   #
+# Kwoh, Yew Soon Ong,                                                      #
+# QuickVina: Accelerating AutoDock Vina Using Gradient-Based Heuristics for#
+# Global Optimization,                                                     #
+# IEEE/ACM Transactions on Computational Biology and Bioinformatics,vol.9, #
+# no. 5, pp. 1266-1272, Sept.-Oct. 2012, doi: 10.1109/TCBB.2012.82         #
+#                                                                          #
+# and original AutoDock Vina paper:                                        #
+# O. Trott, A. J. Olson,                                                   #
+# AutoDock Vina: improving the speed and accuracy of docking with a        #
+# new scoring function, efficient optimization and multithreading,         #
+# Journal of Computational Chemistry 31 (2010) 455-461                     #
+# doi: 10.1002/jcc.21334                                                   #
+############################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1219020420
+Performing search ... done
+Refining results ... done.
+searching finished in 61.370 seconds
+done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.0      0.000      0.000
+   2         -6.7      2.877      6.826
+   3         -6.5      1.593      2.639
+   4         -6.4      2.209      7.131
+   5         -6.3      1.288      3.158
+   6         -6.2      2.451      5.213
+   7         -6.2      2.302      7.051
+   8         -6.1      2.431      6.672
+   9         -6.1      4.292      7.252
+Writing output ... done.
