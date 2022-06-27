@@ -5,6 +5,7 @@ How to use our method
 (1)	Prepare the receptor and the ligand for LBS prediction. You can prepare the receptor and the ligand with AutodockTools (Morris et al., 2009) and OpenBabel (O'Boyle et al., 2011) or the recommended method for Autodock Vina 1.2.0 (see https://autodock-vina.readthedocs.io/en/latest/docking_basic.html).
 
 (2)	Calculate the blind docking box. You can use AutodockTools to set up the docking box visually or use the script "blinddocking_box.py" to calculate the blind docking box automatically. The docking box should be a little larger than the entire protein. Note that the docking box size is set by the number of grid points in AutodockTools while the docking box size required for Vina is the actual size (Å). In the script, the size of the blind docking box is set to 1.05 times the length, width, and height of the protein. 
+
 $ cd .\scripts
 $ python blinddocking_box.py
  Please enter the path containing all the receptor files in format '.pdbqt':
@@ -35,6 +36,7 @@ $ python calculate_preference.py
 (5)	Calculate the pocket characteristic descriptor. The pocket characteristic descriptor is calculated using Fpocket3.0 (Le Guilloux et al., 2009). Fpocket3.0 doesn't offer support for Windows. For more information about how to use it, please see http://fpocket.sourceforge.net/manual_fpocket2.pdf. First, you need to combine each docking conformation with its receptor as a complex file, and then use the dpocket module in Fpocket3.0 to calculate the pocket characteristic descriptor. You can use the following command in Linux:
 $ dpocket -f complex.txt -v 10000
 "complex.txt" contains the name and the path of all the complexes.
+
 (6)	Prepare the input file of the ANN model. The three sets of descriptors obtained from the above steps should be summarized in a ".csv" table in the same format as the example "input_descriptors_from_BD.csv" (contents of the column "label" can be omitted). Take care not to change the order and position of the descriptors. 
 
 (7)	Perform LBS prediction. Now you can run the script "load_model&prediction.py" to perform LBS prediction. The prediction results,  "output_LBSprediction_results.csv", can be found in the same level folder as the script. A Python3 environment with the Python packages: PyTorch, numpy, and pandas is required.
