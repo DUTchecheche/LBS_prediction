@@ -54,7 +54,7 @@ If other docking software based on the old version of Vina is selected, the deta
  
     ..\ LBS_prediction_1pph
 
-(5)	Calculate the pocket characteristic descriptor. The pocket characteristic descriptor is calculated using Fpocket3.0 (Le Guilloux et al., 2009). Fpocket3.0 doesn't offer support for Windows. For more information about how to use it, please see http://fpocket.sourceforge.net/manual_fpocket2.pdf. First, you need to combine each docking conformation with its receptor as a complex file, and then use the dpocket module in Fpocket3.0 to calculate the pocket characteristic descriptor. You can use the following command in Linux:
+(5)	Calculate the pocket characteristic descriptor. The pocket characteristic descriptor is calculated using Fpocket3.0 (Le Guilloux et al., 2009). Fpocket3.0 doesn't offer support for Windows. For more information about how to use it, please see http://fpocket.sourceforge.net/manual_fpocket2.pdf. First, you need to combine each docking conformation with its receptor as a complex file (see "complex-1-1.pdb" in the "blinddocking1" folder), and then use the dpocket module in Fpocket3.0 to calculate the pocket characteristic descriptor. You can use the following command in Linux:
 
     $ dpocket -f complex.txt -v 10000
 
