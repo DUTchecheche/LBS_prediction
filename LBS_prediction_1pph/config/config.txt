@@ -1,0 +1,10 @@
+center_x=6.545
+center_y=9.585
+center_z=14.778
+size_x=49.441
+size_y=41.403
+size_z=45.276
+exhaustiveness=16
+num_modes=9
+energy_range=5
+cpu=12
