@@ -12,11 +12,11 @@ How to use our method
 
     Please enter the path containing all the receptor files in format '.pdbqt':
  
-    .\LBS_prediction_1pph\receptor
+    ..\LBS_prediction_1pph\receptor
  
     Please enter the path where the config files will be saved:
  
-    .\ LBS_prediction_1pph\config
+    ..\ LBS_prediction_1pph\config
  
 (3)	Blind docking. Autodock Vina 1.1.2 (Trott and Olson, 2010), Autodock Vina 1.2.0 (Eberhardt et al., 2021), QuickVina-w (Hassan et al., 2017), and any other docking software based on Vina's scoring function can be used to perform blind docking. The docking parameters, "exhaustiveness", "num_modes", and "energy_range" can be set to 16, 9 ,5(kcal/mol) respectively. Five times blind docking for each pair of receptor and ligand is encouraged.
 
