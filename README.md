@@ -10,7 +10,7 @@ $ cd .\scripts
 
 $ python blinddocking_box.py
 
-  Please enter the path containing all the receptor files in format '.pdbqt':
+    Please enter the path containing all the receptor files in format '.pdbqt':
  
   .\LBS_prediction_1pph\receptor
  
