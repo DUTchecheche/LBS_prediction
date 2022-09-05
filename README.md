@@ -64,7 +64,7 @@ If other docking software based on the old version of Vina is selected, the deta
 
 (7)	Perform LBS prediction. Now you can run the script "load_model&prediction.py" to perform LBS prediction. The prediction results,  "output_LBSprediction_results.csv", can be found in the same level folder as the script. A Python3 environment with the Python packages: PyTorch, numpy, and pandas is required.
 
-    $ python load_model&prediction.py
+    $ python load_model_prediction.py
 
     Please enter the path and name of the input file (.csv):
  
